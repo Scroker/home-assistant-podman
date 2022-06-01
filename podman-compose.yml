@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  homeassistant:
+    container_name: home-assistant
+    image: "docker.io/homeassistant/home-assistant:stable"
+    volumes:
+      - ./config:/config:Z
+      - /etc/localtime:/etc/localtime:ro
+    restart: always
+    ports:
+      - 8123:8123

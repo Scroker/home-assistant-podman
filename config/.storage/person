@@ -1,0 +1,24 @@
+{
+    "version": 2,
+    "minor_version": 1,
+    "key": "person",
+    "data": {
+        "items": [
+            {
+                "name": "Giorgio Dramis",
+                "user_id": "8faa4fccebeb47e5ac0ef2b42e3e95e3",
+                "device_trackers": [
+                    "device_tracker.dn2103"
+                ],
+                "id": "giorgio_dramis"
+            },
+            {
+                "name": "Bianca Buzzi",
+                "device_trackers": [],
+                "user_id": "751394e68e914ae7a0b1b38af950199c",
+                "picture": null,
+                "id": "bianca_buzzi"
+            }
+        ]
+    }
+}
